@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
-
 body {
   font-family: sans-serif;
   background-image: url("./assets/bg.jpg");
@@ -7,35 +6,30 @@ body {
   background-size: cover;
   background-color: #111;
 }
-
 .container {
  
   text-align: center;
 }
-
 h1 {
   margin-top: 40px;
   color:#085c0000;
-  font-size: 200px;
+  font-size: 150px;
   text-shadow: #0071807a 0px 0px 10px;
   font-family: "Sevillana", cursive;
   font-weight: 1000;
   font-style: normal;
 }
-
 form {
   
   display: inline-block;
   text-align: left;
 }
-
 input[type="text"] {
   padding: 10px;
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-
 button[type="submit"] {
   padding: 10px 20px;
   background-color: #4caf50;
@@ -46,23 +40,19 @@ button[type="submit"] {
   cursor: pointer;
   margin-left: 10px;
 }
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 30px 100px ;
-  margin: 20px 700px;
+  padding: 10px 100px ;
+  margin: 20px 500px;
   text-align: center;
   border-radius: 20px;
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
-
 }
-
 .loading {
   font-size: 18px;
   margin: 30px 0;
 }
-
 .error {
   color: red;
   font-size: 18px;
