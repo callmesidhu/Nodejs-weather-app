@@ -20,7 +20,14 @@
       <p class="error"><%= error %></p>
       <% } else if (weather) { %>
       <div class="card">
-        <!-- Add your weather data here -->
+        <p class="reading">
+          <i class="fas fa-thermometer-half"></i>
+          <%=weather.main.temp%>&deg;F
+        </p>
+        <p class="reading">
+          <i class="fas fa-cloud"></i>
+          <%=weather.weather[0].main%>
+        </p>
       </div>
       <% } %>
     </div>

@@ -48,10 +48,14 @@ button[type="submit"] {
 }
 
 .card {
-  background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  
+  padding: 30px 100px ;
+  margin: 20px 700px;
   text-align: center;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+
 }
 
 .loading {
@@ -63,4 +67,9 @@ button[type="submit"] {
   color: red;
   font-size: 18px;
   margin: 30px 0;
+}
+.reading{
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: 700;
 }
